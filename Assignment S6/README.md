@@ -9,6 +9,7 @@ We calculate 2 losses (L2 loss) for the output with respect to the targets t1 an
 The total loss is the sum of the two losses E1 and E2.
 
 The following image shows the model used for this example.
+
 ![model](assets/model.png)
 
 The partial derivative equations for the total loss with respect to the weights are mentioned below.
@@ -30,20 +31,26 @@ $\frac{\partial E_{\text{total}}}{\partial w_7} = (a_{02} - t_2) \cdot a_{o2} \c
 $\frac{\partial E_{\text{total}}}{\partial w_8} = (a_{02} - t_2) \cdot a_{o2} \cdot (1 - a_{o2}) \cdot a_{h2}$
 
 The following image shows the excel sheet where the calculation for BackPropagation is explained.
+
 ![BackPropagation](assets/BP.png)
 
 The following images shows the error graph for different learning rates.
 
 1. Learning Rate = 0.1
     ![LR_0.1](assets/0p1.png)
+
 2. Learning Rate = 0.2
     ![LR_0.1](assets/0p2.png)
+
 3. Learning Rate = 0.5
     ![LR_0.1](assets/0p5.png)
+
 4. Learning Rate = 0.8
     ![LR_0.1](assets/0p8.png)
+
 5. Learning Rate = 1
     ![LR_0.1](assets/1.png)
+
 6. Learning Rate = 2
     ![LR_0.1](assets/2.png)
 
@@ -64,7 +71,9 @@ Following the convolutional layers, a global average pooling layer is employed t
 The entire model encompasses a total of 14,402 parameters.
 
 The following image shows the summary of the model:
+
 ![MNIST Model](assets/MNIST_model.png)
 
 the resultant test accuracy of the model from the last 5 epoch is shown below, The highest being 99.52% in the 17th epoch.
+
 ![Model TestAccuracy](assets/MNIST_result.png)
