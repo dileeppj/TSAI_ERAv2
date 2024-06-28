@@ -586,11 +586,13 @@ Demo ➡️ [Hugging Face Spaces App](https://huggingface.co/spaces/dileeppj/ERA
 
 ## Screenshots
 <details><summary> <b>Expand</b> </summary>
+        
 ![Output](./assets/city-cars.jpg)
 ![Spaces_App](./assets/space_app.png)
 ![AWS_Logs](./assets/aws_ec2_log.png)
 ![Confusion_Matrix](./assets/confusion_matrix.png)
 ![Result](./assets/results.png)
+
 </details>
 
 ## References
